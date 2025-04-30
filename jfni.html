@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBTis 24 - Portada</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #40545708, #493d3d);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #004d99;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #006699;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 30px;
+            color: #444;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <!-- LOGO DEL CBTIS 24 -->
+    <img src="data:image/png;base64,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" alt="Logo CBTis 24">
+
+    <!-- TÍTULO Y SUBTÍTULO -->
+    <h1>Ciudad Victoria de ahorro de energia</h1>
+    <p>mestr@:Nora Elda Peña Acevedo
+    </p>
+    <p>alms:Báez Contreras José Luis</p> 
+      <P>Escobedo Avalos Cristian Gael </P>
+      <P>Infante Hernández José Juan </P>
+      <p>Luis Hernández Edwin Ricardo </p>
+      <P>Muñiz Solís Hugo Mikel </P>
+      <p>Ruiz Balleza emiliano</p>
+    <a href="pgyb.html"><button class="boton">Entrar al sitio</button></a>
+
+
+</body>
+</html>
